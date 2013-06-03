@@ -1,0 +1,14 @@
+﻿After installation
+==================
+
+Set up scripts
+--------------
+
+The simple way to ensure that the sample works is to make sure that the razor layout has jQuery referenced, and to also add the webGrid.js script:
+
+    <script src="@Url.Content("~/Scripts/webGrid.js")" type="text/javascript"></script>
+
+
+Run it
+------
+Assuming you have the default route mapping, navigate to ~/Products to get a series of links to the sample functionality :-)
